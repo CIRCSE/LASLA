@@ -13,6 +13,13 @@ Source: LASLA texts are available through data-sharing agreements. Editions are 
 
  - `complete_lasla.ttl`--> provides the turtle file containing all the texts of LASLA corpus
  - `texts (folder)`--> provides a single turtle file for each text of the LASLA corpus
+ - `conllup (folder)`--> The conllup format is a standard 10 columns conllu format with additional five columns that specify:
+    - flectional category in LiLa
+    - an id that represents the work,author id,work code,sentence number
+    - the import line number in lasla_raw db
+    - the link to LiLa kwonledge base
+    - the token uri in the LiLa kwonledge base
+
 
 
 **Funding**
